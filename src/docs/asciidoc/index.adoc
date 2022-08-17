@@ -1,0 +1,35 @@
+= 전국 사업자 연합 커뮤니티
+:sectnums:
+:toc: left
+:toclevels: 5
+:toc-title: Table of Contents
+:source-highlighter: prettify
+
+Nelljun <nelljun.kim@gmail.com>
+
+v0.0 2022.08.17
+
+***
+== MemberController
+=== 회원 조회
+==== 요청
+===== 모든 회원
+
+.http-request
+include::{snippets}/get-memberList/http-request.adoc[]
+
+===== 검색 조건에 맞는 회원
+
+.http-request
+include::{snippets}/get-memberList-condition/http-request.adoc[]
+
+.request-parameters
+include::{snippets}/get-memberList-condition/request-parameters.adoc[]
+
+==== 응답
+
+.http-response
+include::{snippets}/get-memberList/http-response.adoc[]
+
+.response-fields
+include::{snippets}/get-memberList-condition/response-fields.adoc[]
